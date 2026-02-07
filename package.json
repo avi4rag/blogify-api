@@ -4,22 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avi4rag/blogify-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/avi4rag/blogify-api/issues"
-  },
-  "homepage": "https://github.com/avi4rag/blogify-api#readme",
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
